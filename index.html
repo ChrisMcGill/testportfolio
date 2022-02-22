@@ -1,0 +1,179 @@
+<!-- 
+    make nav sticky
+    add media query
+    add projects title
+    logo?
+-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chris McGill</title>
+        <link rel="stylesheet" href="portfolio.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap" rel="stylesheet">
+        <script src="portfoliojs.js" defer></script>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <div class='menubar'>
+                    <ul class="main-nav">
+                        <li><a href="#">About me</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+            
+        <section class="introdisplay">
+            <div class="intro">
+                <h1>Hey, I'm Chris.</h1>
+                <h2>Here is what I'm up to<br>in my life.</h2>
+            </div>
+            <div class="intropic">
+                <img src="bracket.png" alt="frontlogo">
+            </div>
+        </section>
+
+        
+        <section class="aboutme">
+            <div class="aboutmeimg">
+                <img src="IMG_4716.jpg" alt="pic of me">
+            </div>
+            <div class="aboutmetxt">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
+                    Cumque sapiente minima, itaque fugit sed dignissimos <br>
+                    repudiandae aliquid quo quos ratione. <br> 
+                    Corrupti velit laborum aliquid iusto <br>
+                    reiciendis voluptates aut, sit est.
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <div class="projects">
+                <ul class="projectrow">
+                    <li>
+                        <figure class="projectphoto">
+                            <img src="fridge.png" alt="Smartfridge">
+                            <p>The fridge more organised than I</p>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="projectphoto">
+                            <img src="mirror.png" alt="Smartmirror">
+                            <p>The project done a 1000 times</p>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="projectphoto">
+                            <img src="popcorn.png" alt="Tindermovies">
+                            <p>A tinder date with your family</p>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="projectphoto">
+                            <img src="pi.png" alt="pitext">
+                            <p>Funny numbers and letters</p>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="projectphoto">
+                            <img src="dice.png" alt="graphicodds">
+                            <p>Do you like your odds?</p>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="projectphoto">
+                            <img src="snake.png" alt="infiniteprinter">
+                            <p>The Printer that prints itself</p>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="contactrow">
+            <div class="contact">
+                <div class="row">
+                    <h2>How to contact me</h2>
+                </div> 
+
+                <div class="row"> 
+                    <form method="post" action="#" class="contact-form">
+                        <div class="row">
+                            <div class="col span-1-of-3">
+                                <label for="name">name</label>
+                            </div>
+                            <div class="col span-2-of-3">
+                                <input type="text" name="name" id="name" placeholder="your name" required>
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+                            
+                            <div class="col span-1-of-3">
+                                <label for="email">email</label>
+                            </div>
+                            <div class="col span-2-of-3">
+                                <input type="email" name="email" id="email" placeholder="your email" required>
+                            </div>
+
+                        </div>
+                        
+                        <div class="row">
+                            
+                            <div class="col span-1-of-3">
+                                <label>drop me a message</label>
+                            </div>
+                            <div class="col span-2-of-3">
+                                <textarea name="message" placeholder="leave your message here"></textarea>
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+                            
+                            <div class="col span-1-of-3">
+                                <label>&nbsp;</label>
+                            </div>
+                            <div class="col span-2-of-3">
+                                <input type="submit" value="send it!">
+                            </div>
+
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+            <div class="socials">
+                <ul>
+                    <li>
+                        <img src="twitter.svg" alt="twitter">
+                    </li>
+                    <li>
+                        <img src="linkedin.svg" alt="linkedin">
+                    </li>
+                    <li>
+                        <img src="github.svg" alt="github">
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+    </body>
+
+</html>

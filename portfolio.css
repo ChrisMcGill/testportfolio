@@ -1,0 +1,180 @@
+html{
+    margin:0;
+    padding: 0;
+    background: rgb(14, 28, 54);
+    color: rgb(249, 251, 242);
+    font-family: 'Manrope', sans-serif;
+}
+
+
+/* First section */
+
+header{
+    height: 8vh;
+}
+
+.menubar{
+    margin-right: 15%;
+}
+
+
+.logo{
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 55px;
+    position: sticky;
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    padding: 8px 0px;
+    color: rgb(249, 251, 242);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid rgb(255,237, 225);
+}
+
+
+.introdisplay{
+    display: flex;
+    justify-content: space-between;
+    height: 92vh;
+}
+
+.intro{
+    padding-top: 30%;
+    width: auto;
+    font-size: 200%;
+    padding-left: 10%;
+}
+
+.intropic{
+    padding-top: 15%;
+}
+
+.intropic img{
+    height: 60vh;
+    width: auto;
+}
+
+/* about me */
+
+.aboutme{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.aboutmeimg img{
+    height: 100vh;
+    width: auto;
+    border-radius: 35%;
+}
+
+.aboutmetxt{
+    padding-top: 20%;
+    height: 100vh;
+    width: auto;
+}
+.aboutmetxt p{
+    font-size: 130%;
+    text-align: center;
+    justify-content: center;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+/* projects */
+
+.projects{
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+}
+
+.projectrow{
+    list-style: none;
+    width: 100%;
+}
+
+.projectrow li{
+    width: 40%;
+}
+
+.projectphoto{
+    width: auto;
+    margin: 0;
+    overflow: hidden;
+    height: 25%;
+}
+
+.projectphoto img{
+    opacity: 0.7;
+    background-color: black;
+    width: 100;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s;
+}
+
+.projectphoto img:hover{
+    transform: scale(1.03);
+    opacity: 1;
+}
+
+.projectphoto p{
+    vertical-align:middle;
+    text-align:center;
+}
+
+/* Contact */
+
+.contactrow{
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+}
+
+.contact-form{
+    width: 60%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select
+textarea{
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid rgb(35, 23, 145)
+}
+
+
+input[type=checkbox]{
+    margin: 10px 5px 10px 0;
+}
+
+.socials{
+    list-style: none;
+    width: 100%;
+}
+
